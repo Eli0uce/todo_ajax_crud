@@ -15,9 +15,9 @@
     <script src="https://cdn.datatables.net/buttons/2.0.0/js/dataTables.buttons.min.js"></script>
     <script src="js/script.js"></script>
     <style>
-        button.dt-button.btn-primary{
-            background:var(--bs-primary)!important;
-            color:white;
+        button.dt-button.btn-primary {
+            background: var(--bs-primary) !important;
+            color: white;
         }
     </style>
 </head>
@@ -31,6 +31,22 @@
             </div>
         </div>
         <hr>
+        <!--<div>
+            <form action="phpSearch.php" method="post">
+                Search <input type="text" name="search"><br>
+                <input type="submit">
+            </form>
+            <form action="phpSearchOption.php" method="post">
+                Search <input type="text" name="search"><br>
+
+                Column: <select name="column">
+                    <option value="name">Name</option>
+                    <option value="age">Age</option>
+                    <option value="gender">Gender</option>
+                </select><br>
+                <input type="submit">
+            </form>
+        </div>-->
         <div class="row">
             <div class="col-md-12" id="msg"></div>
         </div>

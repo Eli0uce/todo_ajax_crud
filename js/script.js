@@ -88,7 +88,7 @@ $(function() {
                 })
             },
             buttons: [{
-                text: "Add New",
+                text: "Add Task",
                 className: "btn btn-primary py-0",
                 action: function(e, dt, node, config) {
                     $('#add_modal').modal('show')

@@ -16,6 +16,7 @@ $columns_arr = array(
     "description",
     "status"
 );
+
 $query = $conn->query("SELECT * FROM `authors`");
 $recordsFilterCount = $conn->query("SELECT * FROM `authors`")->num_rows;
 

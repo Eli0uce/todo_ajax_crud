@@ -11844,7 +11844,7 @@
 			 *      } );
 			 *    } );
 			 */
-			"sSearch": "Search:",
+			"sSearch": "Search :",
 	
 	
 			/**
